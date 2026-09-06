@@ -34,3 +34,8 @@ Audit all open PRs by VIVAAN-DHAWAN, fix failing tests where actionable, handle 
 - Fix llmtrim#268 conflict via rebase onto upstream main (user approval first — it touches Cargo.lock).
 - User signs CLA for continue#12571 (manual step, cannot automate).
 - Run repo-hunter skill for 1–2 new low-star candidates; remember: issue first, minimal scope, tests, human-toned PR.
+
+## Update 14:45 UTC — commitlint fix
+
+- Pushed commit message fix `b020e05` -> `e760836` (`fix(parser): ...`) after `semantic` PR-Policy check failed on non-conventional subject. Used `push --force-with-lease` on own fork branch only.
+- CI re-running; Node checks + Greptile still IN_PROGRESS at last check.
